@@ -42,5 +42,11 @@ Follow these steps to run the project locally:
    ```bash
    touch .env
 
+4. **Run the script:** Start fetching emails, generating summaries, and sending them to Telegram:
+   ```bash
+   python newslettersum_v1.py
+   ```
+   This will continuously check for unseen Bloomberg emails, summarize them, and send them to the specified Telegram chat.
+
 
 
