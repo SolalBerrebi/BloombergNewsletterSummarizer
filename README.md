@@ -48,11 +48,14 @@ Follow these steps to run the project locally:
    ```
    This will continuously check for unseen Bloomberg emails, summarize them, and send them to the specified Telegram chat.
 
+
+
 ## Project Structure
 
+```bash
 BloombergNewsletterSummarizer/
 │
-├── /scripts/                   # All the core Python scripts
+├── scripts/                   # All the core Python scripts
 │   ├── newslettersum_v1.py      # Main script for email summarization and Telegram messaging
 │   └── getchannelIDTelegram.py  # Script for fetching the Telegram channel ID
 │
@@ -60,7 +63,7 @@ BloombergNewsletterSummarizer/
 ├── requirements.txt            # Python dependencies for the project
 ├── README.md                   # Project documentation
 └── LICENSE                     # License for the project
-
+```
 
 ## Key Technologies
 
