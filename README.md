@@ -48,5 +48,30 @@ Follow these steps to run the project locally:
    ```
    This will continuously check for unseen Bloomberg emails, summarize them, and send them to the specified Telegram chat.
 
+## Project Structure
+
+BloombergNewsletterSummarizer/
+│
+├── /scripts/                   # All the core Python scripts
+│   ├── newslettersum_v1.py      # Main script for email summarization and Telegram messaging
+│   └── getchannelIDTelegram.py  # Script for fetching the Telegram channel ID
+│
+├── .env                        # Environment variables (email credentials, bot token, API key)
+├── requirements.txt            # Python dependencies for the project
+├── README.md                   # Project documentation
+└── LICENSE                     # License for the project
+
+
+## Key Technologies
+
+- **OpenAI GPT-4:** This state-of-the-art language model enables the generation of high-quality summaries, making the complex finance language accessible to both professionals and students.
+- **IMAP for Email Handling:** Securely connects to Bloomberg email servers to retrieve market news content in real time.
+- **Telegram Bot API:** Seamlessly sends the summarized content to Telegram channels or user chats, ensuring that finance professionals can receive updates directly on their mobile devices.
+- **Python:** The entire project is built using Python for its versatility and ease of integration with various APIs.
+
+## Use Case Scenarios
+
+- **Market Analysts:** Receive concise daily summaries of the latest Bloomberg reports directly via Telegram, with a focus on actionable insights.
+- **Finance Students:** Stay up to date on market news while also enhancing finance vocabulary with the glossary feature, which includes English-French translations.
 
 
