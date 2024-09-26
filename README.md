@@ -21,3 +21,26 @@ This project integrates multiple technologies to create a seamless workflow:
 - **Email Retrieval**: Fetches Bloomberg newsletters using IMAP.
 - **Natural Language Processing**: GPT-4 model by OpenAI is used to summarize content in a structured, finance-focused manner.
 - **Messaging**: Summaries are delivered using Telegram's Bot API.
+
+## Installation & Setup
+Follow these steps to run the project locally:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/BloombergNewsletterSummarizer.git
+   cd BloombergNewsletterSummarizer
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Set up environment variables** (email credentials, Telegram bot token, and OpenAI API key):
+   
+   Create a `.env` file in the root directory to securely manage your credentials:
+   ```bash
+   touch .env
+
+
+
