@@ -77,9 +77,7 @@ def summarize_text(file_path, subject):
 
     # Prepare prompt for OpenAI
     prompt = (
-        f"Summarize the following newsletter for Master's level finance students. "
-        f"Use an academic tone with a B2-C1 level vocabulary. Include a glossary with translations of key finance terms. "
-        f"Ensure clear section titles like 'Key Takeaways', 'Glossary', 'Finance Concept'.\n\n{text}"
+        f"USE YOUR OWN PROMPT.\n\n{text}"
     )
 
     # Use GPT to generate summary
